@@ -1,0 +1,206 @@
+body
+{
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(-120deg,#12c2e9,#c471ed, #f64f59);
+  background-attachment: fixed;
+  cursor: pointer;
+}
+
+
+/*************
+    HEADER
+*************/
+
+.container
+{
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo
+{
+ width: 100px;
+ height: auto;
+}
+header nav ul
+{
+  list-style: none;
+}
+
+header a
+{
+  font-size: 12px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: linear 0.5s;
+}
+
+header a:hover
+{
+  color: #000000;
+}
+
+.contour
+{
+  width: 9vw;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  transition: linear 0.5s;
+  user-select: none;
+}
+
+.contourpass
+{
+    width: 15vw;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    text-align: center;
+    transition: linear 0.5s;
+    user-select: none;
+
+}
+
+.contour:hover, .contourpass:hover
+{
+  background: #FFFFFF;
+}
+
+/*************
+    BODY
+*************/
+
+@keyframes spin_animation
+{
+  0%
+  {
+    transform: rotate(0deg);
+    filter: blur(4px)
+  }
+  100%
+  {
+    transform: rotate(-360deg);
+    filter: blur(4px)
+  }
+}
+@keyframes spin_animation2
+{
+  0%
+  {
+    transform: rotate(0deg);
+    filter: blur(4px)
+  }
+  100%
+  {
+    transform: rotate(360deg);
+    filter: blur(4px)
+  }
+}
+.containerGames
+{
+  background: #FFFFFF84;
+  border-radius: 10px;
+  padding: 30px 0px;
+  box-shadow: 0px 0px 10px #00000055;
+}
+.title
+{
+  margin-left: 40px;
+  margin-top: -10px;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700px;
+}
+
+.comment
+{
+  margin-left: 20px;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700px;
+  text-shadow : 0 0 15px #00000044;
+
+}
+
+.sub_title
+{
+  color: #ffffff;  
+  font-size: 20px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px #00000055;
+  ;
+}
+
+.rolldice, .rolldice2, .rolldice3
+{
+  color: #FFFFFF;
+  background: linear-gradient(-120deg,#12c2e9,#c471ed, #f64f59);
+  text-align: center;
+  width: 120px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: linear 0.5s;
+  user-select: none;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px #00000025;
+
+}
+
+.rolldice:hover, .rolldice2:hover, .rolldice3:hover
+
+{
+  background: #FFFFFF;
+  color: #222222;
+}
+
+.dice1{
+  width: 200;
+  height: 200px;
+  margin-left: 2px;
+}
+
+.dice2 
+{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.dice3
+{
+  width: 75px;
+  height: 75px;
+  margin-left: 15px;
+}
+
+/*************
+    FOOTER
+*************/
+
+footer
+{
+  margin-top: 80px;
+}
+
+.footer_text
+{
+  margin-left: 50px;
+  
+}
+
+.footer_a
+{
+  margin-left: 30px;
+  text-decoration: none;
+  color: #222222;
+}
