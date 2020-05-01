@@ -1,3 +1,3 @@
 # diceRoller
 
-https://soliman-beep.github.io/diceRoller/
+https://Soliman-Halaby.github.io/diceRoller/
