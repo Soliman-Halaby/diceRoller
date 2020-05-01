@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 - Dice Roller</title>
+    <link rel="icon" type="image/png" href="./images/hetic_dice.png" />
+    <link rel="stylesheet" href="./styles/simple-grid.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <!-- NAV BAR / HEADER -->
+
+    <header class="header">
+        <nav>
+            <ul class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <li>
+                            <a class="logo" href="#"><img class="logo" src="./images/hetic_dice.png" alt="Logo de HETIDICE"></a>
+                        </li>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-2 contour">
+                        <li class="text">
+                            <a href="#">Home</a>
+                        </li>
+                    </div>
+                    <div class="col-2 contour">
+                        <li class="text">
+                            <a href="#">Dice Roller</a>
+                        </li>
+                    </div> 
+                    <div class="col-4 contourpass">
+                        <li class="text">
+                            <a href="#">Password Generator</a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BODY -->
+
+    <div class="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div data-aos="zoom-in">
+                    <div class="col-6">
+                        <h1 class="title">A dice roller created only for HETICIENS !</h1>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div data-aos="zoom-in">
+                    <div class="col-6">
+                        <h3 class="comment">We offer several small games with virtual dice</h3>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+                
+            <!-- GAME 1 -->
+            <div class = "containerGames">
+                <div class="row">
+                    <div data-aos="fade-right">
+                        <div class="col-4"><h3 class="sub_title">Discover our first game :</h3></div>
+                    </div>
+                    <div class="col-3">
+                        <img class="dice1" src="./images/game_1/dice1.png" alt = "Dice Number 1">
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-3">
+                        <div class = center><span class="rolldice">Roll The Dice</span></div>
+                    </div>
+                    <div class="col-5"><span class="var"></span></div>
+                </div>
+                <!-- GAME 2 -->
+
+                <div class="row">
+                    <div data-aos="fade-right">
+                        <div class="col-4"><h3 class="sub_title">Here's our second game :</h3></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container_dice"><img class="dice2" src ="./images/game_2/dice1_80x80.png" alt = "Dice Number 13"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <span class="var-2"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-5">
+                        <section class="game_2">
+                            <span> How many dice do you want to roll ?</span>
+
+                            <!-- SELECT NUMBER OF DICE -->
+                            
+                            <select class="number">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </section>
+                    </div> 
+                    <div class="col-2"><span class="rolldice2">Roll !</span></div>
+                </div>
+
+                <!-- GAME 3 -->
+
+                <div class="row">
+                    <div data-aos="fade-right">
+                        <div class="col-5"><h3 class="sub_title">And finally, our third game :</h3></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container_dice3"><img class="dice3" src ="./images/game_3/6faces/dice1_6faces.png" alt = "Dice Number 13"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5">
+                        <span class="var-3"></span>
+                    </div>
+                    <div class="col-5">
+                        <span class="average"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <section class="game_3">
+                            <span> How many faces ? </span>
+
+                            <!-- SELECT NUMBER OF FACES -->
+                            
+                            <select class="faces">
+                                <option value="6">6</option>
+                                <option value="10">10</option>
+                                <option value="12">12</option>
+                                <option value="20">20</option>
+                            </select>
+                        </section>
+                    </div> 
+                    <div class="col-5">
+                        <section class="game_3">
+                            <span> How many dice do you want to roll ?</span>
+
+                            <!-- SELECT NUMBER OF DICE -->
+                            
+                            <select class="number_game3">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </section>
+                    </div> 
+                    <div class="col-2"><span class="rolldice3">Roll !</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <span>Created by Soliman Al Halaby H1 G2</span>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <span class="footer_text">Change the language :</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-2">
+                        <a class="footer_a" href="./index_fr.html">FR</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- AUDIO -->
+
+    <audio class="audio" src="./dice.wav"></audio>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
