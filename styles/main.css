@@ -236,4 +236,9 @@ select {
   .footerText {
     font-size: 12px;
   }
+
+  .logo {
+    width: 70px;
+    height: auto;
+  }
 }
