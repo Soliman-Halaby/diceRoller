@@ -23,7 +23,7 @@ number3.addEventListener("input", (event) => {
     dice3.classList.add("diceImage");
     dice3.setAttribute(
       "src",
-      `./images/game_3/${num}faces/dice1_${num}faces.svg`
+      `./assets/images/game_3/${num}faces/dice1_${num}faces.svg`
     );
     containerDice3.appendChild(dice3);
   }
@@ -43,19 +43,31 @@ faces.addEventListener("input", (event) => {
   // Different picture appear depending of value of faces the user created
   switch (facesValue) {
     case "6":
-      dice3.setAttribute("src", "./images/game_3/6faces/dice1_6faces.svg");
+      dice3.setAttribute(
+        "src",
+        "./assets/images/game_3/6faces/dice1_6faces.svg"
+      );
       break;
 
     case "10":
-      dice3.setAttribute("src", "./images/game_3/10faces/dice1_10faces.svg");
+      dice3.setAttribute(
+        "src",
+        "./assets/images/game_3/10faces/dice1_10faces.svg"
+      );
       break;
 
     case "12":
-      dice3.setAttribute("src", "./images/game_3/12faces/dice1_12faces.svg");
+      dice3.setAttribute(
+        "src",
+        "./assets/images/game_3/12faces/dice1_12faces.svg"
+      );
       break;
 
     default:
-      dice3.setAttribute("src", "./images/game_3/20faces/dice1_20faces.svg");
+      dice3.setAttribute(
+        "src",
+        "./assets/images/game_3/20faces/dice1_20faces.svg"
+      );
       break;
   }
 });
@@ -70,7 +82,7 @@ button3.addEventListener("click", (event) => {
   for (const element3 of dice3) {
     const num = faces.value;
     const roller3 = Math.ceil(Math.random() * num);
-    element3.src = `./images/game_3/${num}faces/dice${roller3}_${num}faces.svg`;
+    element3.src = `./assets/images/game_3/${num}faces/dice${roller3}_${num}faces.svg`;
     element3.style.animation = "spin_animation2 0.30s ";
     audio.play();
     setTimeout(function () {

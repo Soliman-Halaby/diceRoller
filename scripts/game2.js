@@ -2,12 +2,12 @@
 const audio = document.querySelector(".audio");
 
 const diceUrl2 = [
-  "./images/game_2/dice1.svg",
-  "./images/game_2/dice2.svg",
-  "./images/game_2/dice3.svg",
-  "./images/game_2/dice4.svg",
-  "./images/game_2/dice5.svg",
-  "./images/game_2/dice6.svg",
+  "./assets/images/game_2/dice1.svg",
+  "./assets/images/game_2/dice2.svg",
+  "./assets/images/game_2/dice3.svg",
+  "./assets/images/game_2/dice4.svg",
+  "./assets/images/game_2/dice5.svg",
+  "./assets/images/game_2/dice6.svg",
 ];
 const button2 = document.querySelector(".rollButton2");
 const number = document.querySelector(".gameTwoNumber");
@@ -27,7 +27,7 @@ number.addEventListener("input", (event) => {
     // Create a the number of dice the user selected
     const dice2 = document.createElement("img");
     dice2.classList.add("diceImage2");
-    dice2.setAttribute("src", "./images/game_2/dice1.svg");
+    dice2.setAttribute("src", "./assets/images/game_2/dice1.svg");
     containerDice.appendChild(dice2);
   }
 });

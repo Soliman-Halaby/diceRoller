@@ -3,12 +3,12 @@
 const button = document.querySelector(".rollButton");
 const dice = document.querySelector(".diceImage");
 const diceUrl = [
-  "./images/game_1/dice1.svg",
-  "./images/game_1/dice2.svg",
-  "./images/game_1/dice3.svg",
-  "./images/game_1/dice4.svg",
-  "./images/game_1/dice5.svg",
-  "./images/game_1/dice6.svg",
+  "./assets/images/game_1/dice2.svg",
+  "./assets/images/game_1/dice1.svg",
+  "./assets/images/game_1/dice3.svg",
+  "./assets/images/game_1/dice4.svg",
+  "./assets/images/game_1/dice5.svg",
+  "./assets/images/game_1/dice6.svg",
 ];
 const audio = document.querySelector(".audio");
 const result = document.querySelector(".diceText");
