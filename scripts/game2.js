@@ -35,7 +35,7 @@ number.addEventListener("input", (event) => {
 // When user click on Roll
 
 button2.addEventListener("click", (event) => {
-  //   audio.currentTime = 0;
+  audio.currentTime = 0;
   let total = 0;
   const dice2 = document.querySelectorAll(".diceImage2");
   for (const element of dice2) {
@@ -43,11 +43,11 @@ button2.addEventListener("click", (event) => {
     // Choose a random picture of dice of the array with all the pictures
     element.src = diceUrl2[roller2 - 1];
     element.style.animation = "spin_animation2 0.30s ";
-    // audio.play();
+    audio.play();
     setTimeout(function () {
       element.style.animation = "none ";
     }, 250);
-    // audio.play();
+    audio.play();
     total += roller2;
   }
   result2.textContent = `Your total is ${total} !`;
