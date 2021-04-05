@@ -2,14 +2,15 @@
   font-family: "Gosha Sans Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Gosha Sans Regular"), url("GoshaSansRegular.woff") format("woff");
+  src: local("Gosha Sans Regular"),
+    url("../GoshaSansRegular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Gosha Sans Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Gosha Sans Bold"), url("GoshaSansBold.woff") format("woff");
+  src: local("Gosha Sans Bold"), url("../GoshaSansBold.woff") format("woff");
 }
 
 body {
