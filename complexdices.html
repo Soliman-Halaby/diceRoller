@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="pageContainer">
+        <header class="header">
+            <a href="./index.html">
+                <img class="logo" src="./images/heticDiceLogo.svg">
+            </a>            
+            <ul class="diceType">
+                <li class="game gameOne"><a class="navLink" href="./index.html">One dice</a></li>
+                <li class="game gameTwo"><a class="navLink" href="./multipledices.html">Multiple dices</a></li>
+                <li class="game gameThree"><a class="navLink activ" href="#">Complex dice</a></li>
+            </ul>
+        </header>
+        <div class="gameContainer">
+            <div class="thirdGame gameNumber"> 
+                <span class="titleGame">Roll multiple complex dices!</span>
+                <span class="gameTwoDescription">
+                    How many dice do you want to roll ?
+                    <select class="gameThreeNumber">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </span>
+                <span class="gameTwoDescription">
+                    How many faces ?
+                    <select class="faces">
+                        <option value="6">6</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="20">20</option>
+                    </select>
+                </span>
+                <div class="gameDisplay">
+                    <div class="imageContainer">
+                        <img class="diceImage" src="./images/game_1/dice1.svg">
+                    </div>
+                    <span class="diceText">Your total is 9 !</span>
+                    <span class="average">Your average is 9 !</span>
+                    <div class="rollButton">
+                        <span class="rollText">Roll !</span>
+                    </div>
+                </div>
+            </div>
+            <footer><span class="footerText">Developed by <a class="bold" href="https://solimanalhalaby.fr/" target="_blank">Soliman Al Halaby</a> and designed by <a class="bold" href="https://www.linkedin.com/in/in%C3%A8s-richard-60b775194/" target="_blank">Inès Richard</a></span></span></footer>
+        </div>
+    </div>
+    <audio class="audio" src="./dice.wav"></audio>
+    <script src="./scripts/game3.js"></script>
+</body>
+</html>
