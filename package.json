@@ -16,6 +16,6 @@
     "run-script-os": "^1.0.3"
   },
   "dependencies": {
-    "three": "^0.125.2"
+    "three": "^0.137.0"
   }
 }
